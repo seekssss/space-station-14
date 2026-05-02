@@ -1,0 +1,33 @@
+# Tesh ear marking
+- type: marking
+  id: TeshariEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari_inner
+
+- type: marking
+  id: TeshariEarHigh
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari_high
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari_high_inner
+
+- type: marking
+  id: TeshariEarLow
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari_low
+    - sprite: Mobs/Customization/Teshari/ears.rsi
+      state: teshari_low_inner

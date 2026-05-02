@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "r_hand_feathers",
+      "directions": 4
+    },
+    {
+      "name": "l_hand_feathers",
+      "directions": 4
+    },
+    {
+      "name": "r_foot_feathers",
+      "directions": 4
+    },
+    {
+      "name": "l_foot_feathers",
+      "directions": 4
+    }
+  ]
+}

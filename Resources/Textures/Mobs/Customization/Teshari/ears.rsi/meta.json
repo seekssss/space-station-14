@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "teshari",
+      "directions": 4
+    },
+    {
+      "name": "teshari_high",
+      "directions": 4
+    },
+    {
+      "name": "teshari_inner",
+      "directions": 4
+    },
+    {
+      "name": "teshari_low",
+      "directions": 4
+    },
+    {
+      "name": "teshari_high_inner",
+      "directions": 4
+    },
+    {
+      "name": "teshari_low_inner",
+      "directions": 4
+    }
+  ]
+}

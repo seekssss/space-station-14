@@ -1,0 +1,57 @@
+- type: marking
+  id: TeshariWingHandLeft
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/limb.rsi
+      state: l_hand_feathers
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#e5e3d1"
+
+
+- type: marking
+  id: TeshariWingHandRight
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/limb.rsi
+      state: r_hand_feathers
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#e5e3d1"
+
+- type: marking
+  id: TeshariFeatherFootLeft
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/limb.rsi
+      state: l_foot_feathers
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#e5e3d1"
+
+
+- type: marking
+  id: TeshariFeatherFootRight
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/limb.rsi
+      state: r_foot_feathers
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#e5e3d1"

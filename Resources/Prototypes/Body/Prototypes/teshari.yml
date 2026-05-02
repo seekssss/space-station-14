@@ -1,0 +1,49 @@
+- type: body
+  id: Teshari
+  name: teshari
+  root: torso
+  slots:
+    head:
+      part: HeadTeshari
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoTeshari
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganHumanLungs
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmTeshari
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmTeshari
+      connections:
+      - left hand
+    right hand:
+      part: RightHandTeshari
+    left hand:
+      part: LeftHandTeshari
+    right leg:
+      part: RightLegTeshari
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegTeshari
+      connections:
+      - left foot
+    right foot:
+      part: RightFootTeshari
+    left foot:
+      part: LeftFootTeshari

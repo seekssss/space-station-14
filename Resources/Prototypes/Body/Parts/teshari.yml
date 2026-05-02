@@ -1,0 +1,89 @@
+# Limbs that spawn when gibbed should get descriptions.
+- type: entity
+  abstract: true
+  parent: [ BasePart ]
+  id: PartTeshari
+  name: teshari body part
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Teshari/parts.rsi
+
+- type: entity
+  parent: [ PartTeshari, BaseTorso ]
+  id: TorsoTeshari
+  name: teshari torso
+  components:
+  - type: Sprite
+    state: torso_m
+
+- type: entity
+  parent: [ PartTeshari, BaseHead ]
+  id: HeadTeshari
+  name: teshari head
+  components:
+  - type: Sprite
+    state: head_m
+
+- type: entity
+  parent: [ PartTeshari, BaseLeftArm ]
+  id: LeftArmTeshari
+  name: left teshari arm
+  components:
+  - type: Sprite
+    state: l_arm
+
+- type: entity
+  parent: [ PartTeshari, BaseRightArm ]
+  id: RightArmTeshari
+  name: right teshari arm
+  components:
+  - type: Sprite
+    state: r_arm
+
+- type: entity
+  parent: [ PartTeshari, BaseLeftHand ]
+  id: LeftHandTeshari
+  name: left teshari hand
+  components:
+  - type: Sprite
+    state: l_hand
+
+- type: entity
+  parent: [ PartTeshari, BaseRightHand ]
+  id: RightHandTeshari
+  name: right teshari hand
+  components:
+  - type: Sprite
+    state: r_hand
+
+- type: entity
+  parent: [ PartTeshari, BaseLeftLeg ]
+  id: LeftLegTeshari
+  name: left teshari leg
+  components:
+  - type: Sprite
+    state: l_leg
+
+- type: entity
+  parent: [ PartTeshari, BaseRightLeg ]
+  id: RightLegTeshari
+  name: right teshari leg
+  components:
+  - type: Sprite
+    state: r_leg
+
+- type: entity
+  parent: [ PartTeshari, BaseLeftFoot ]
+  id: LeftFootTeshari
+  name: left teshari foot
+  components:
+  - type: Sprite
+    state: l_foot
+
+- type: entity
+  parent: [ PartTeshari, BaseRightFoot ]
+  id: RightFootTeshari
+  name: right teshari foot
+  components:
+  - type: Sprite
+    state: r_foot

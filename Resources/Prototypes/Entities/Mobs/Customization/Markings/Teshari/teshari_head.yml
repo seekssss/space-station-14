@@ -1,0 +1,18 @@
+# Head Markings (Head)
+- type: marking
+  id: TeshariHeadMaleMarking
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/head.rsi
+      state: teshari_male_pattern
+
+- type: marking
+  id: TeshariHeadFemaleMarking
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [ Teshari ]
+  sprites:
+    - sprite: Mobs/Customization/Teshari/head.rsi
+      state: teshari_male_pattern

@@ -1,0 +1,11 @@
+- type: marking
+  id: TeshariTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Teshari]
+  forcedColoring: true
+  sprites:
+    - sprite: Mobs/Customization/Teshari/tails.rsi
+      state: tail_s
+    - sprite: Mobs/Customization/Teshari/tails.rsi
+      state: tail_feathers_s
